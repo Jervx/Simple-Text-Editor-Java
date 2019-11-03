@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane mouseTransparent="true" prefHeight="342.0" prefWidth="404.0" style="-fx-background-image: url(&quot;About-v2.png&quot;);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.About">
+   <children>
+      <Label layoutX="142.0" layoutY="107.0" text="Creator: Jerbee Paragas" textFill="#6f6f6f">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="124.0" prefHeight="15.0" prefWidth="120.0" text="Date Created: Oct 2019" textAlignment="CENTER" textFill="#757575">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="143.0" prefHeight="15.0" prefWidth="93.0" text="Copyright © 2019" textAlignment="CENTER" textFill="#5a5a5a">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="127.0" layoutY="28.0" text="JerbTxtEditor" textFill="#6f6f6f">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="53.0" text="Version 1.0" textFill="#6f6f6f">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="fb" focusTraversable="false" layoutX="165.0" layoutY="234.0" text="Jerbee Paragas" textFill="#727272">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Hyperlink>
+      <Hyperlink fx:id="gh" focusTraversable="false" layoutX="166.0" layoutY="268.0" text="jerbeeparagas" textFill="#727272">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Hyperlink>
+      <Hyperlink fx:id="tw" focusTraversable="false" layoutX="165.0" layoutY="300.0" text="JerbeeParagas" textFill="#727272">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Hyperlink>
+   </children>
+</AnchorPane>

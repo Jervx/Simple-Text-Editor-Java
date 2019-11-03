@@ -1,0 +1,37 @@
+.menu-bar{
+    -fx-background-color:transparent;
+}
+
+.button:hover{
+ -fx-background-color:rgb(63,73,83);
+ -fx-text-fill:white;
+}
+
+.button{
+   -fx-background-color:rgb(220,220,220);
+   -fx-text-fill:black;
+}
+
+.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-box-border: none;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: 0;
+    -fx-text-fill:rgb(100,100,100);
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgb(180,180,180);
+    -fx-background-radius: 0px;
+}
